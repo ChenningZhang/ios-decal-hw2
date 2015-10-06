@@ -6,7 +6,17 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KeyboardViewController" customModule="CalKeyboard" customModuleProvider="target">
             <connections>
+                <outlet property="deleteKeyboardButton" destination="or9-TI-t36" id="xwc-HW-Xr8"/>
+                <outlet property="eightButton" destination="qxq-mz-2le" id="RIu-hC-GEO"/>
+                <outlet property="fiveButton" destination="UAI-SL-WpH" id="Qde-JK-Mrp"/>
+                <outlet property="fourButton" destination="sgG-lf-BQp" id="Ics-sc-cbs"/>
                 <outlet property="nextKeyboardButton" destination="gRt-12-JcF" id="CWQ-gG-G2m"/>
+                <outlet property="oneButton" destination="z4r-Ny-MGh" id="Nmc-cZ-INa"/>
+                <outlet property="returnKeyboardButton" destination="5z8-eq-NJN" id="Gxb-M6-dkB"/>
+                <outlet property="sevenButton" destination="g1M-I5-ahO" id="ImF-Mq-W1Y"/>
+                <outlet property="sixButton" destination="sv3-xf-Dov" id="jxe-Lr-SqZ"/>
+                <outlet property="threeButton" destination="nnq-Y3-7pC" id="z7o-8J-06u"/>
+                <outlet property="twoButton" destination="pIy-5J-VIT" id="CdQ-Sy-AkJ"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -22,53 +32,37 @@
                     </constraints>
                     <state key="normal" title="N"/>
                 </button>
-                <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z4r-Ny-MGh">
+                <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z4r-Ny-MGh">
                     <rect key="frame" x="317" y="8" width="50" height="20"/>
-                    <state key="normal" title="♔"/>
+                    <state key="normal" title="1"/>
                 </button>
-                <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pIy-5J-VIT">
+                <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pIy-5J-VIT">
                     <rect key="frame" x="317" y="46" width="50" height="20"/>
-                    <state key="normal" title="☾"/>
+                    <state key="normal" title="2"/>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nnq-Y3-7pC">
                     <rect key="frame" x="317" y="90" width="50" height="20"/>
-                    <state key="normal" title="☎"/>
+                    <state key="normal" title="3"/>
                 </button>
                 <button opaque="NO" tag="4" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgG-lf-BQp">
                     <rect key="frame" x="317" y="130" width="50" height="20"/>
-                    <state key="normal" title="❀"/>
+                    <state key="normal" title="4"/>
                 </button>
                 <button opaque="NO" tag="5" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAI-SL-WpH">
                     <rect key="frame" x="240" y="8" width="50" height="20"/>
-                    <state key="normal" title="☯"/>
+                    <state key="normal" title="5"/>
                 </button>
                 <button opaque="NO" tag="6" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1M-I5-ahO">
                     <rect key="frame" x="240" y="90" width="50" height="20"/>
-                    <state key="normal" title="★"/>
+                    <state key="normal" title="7"/>
                 </button>
                 <button opaque="NO" tag="7" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sv3-xf-Dov">
                     <rect key="frame" x="240" y="46" width="50" height="20"/>
-                    <state key="normal" title="ღ"/>
+                    <state key="normal" title="6"/>
                 </button>
                 <button opaque="NO" tag="8" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxq-mz-2le">
                     <rect key="frame" x="240" y="130" width="50" height="20"/>
-                    <state key="normal" title="♖"/>
-                </button>
-                <button opaque="NO" tag="9" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="13e-qd-Gp4">
-                    <rect key="frame" x="162" y="8" width="50" height="20"/>
-                    <state key="normal" title="☃"/>
-                </button>
-                <button opaque="NO" tag="10" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KCX-1X-geN">
-                    <rect key="frame" x="162" y="90" width="50" height="20"/>
-                    <state key="normal" title="⌘"/>
-                </button>
-                <button opaque="NO" tag="11" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CgA-yc-FWA">
-                    <rect key="frame" x="162" y="46" width="50" height="20"/>
-                    <state key="normal" title="☁"/>
-                </button>
-                <button opaque="NO" tag="12" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Pw-1S-RmC">
-                    <rect key="frame" x="162" y="130" width="50" height="20"/>
-                    <state key="normal" title="❦"/>
+                    <state key="normal" title="8"/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="or9-TI-t36">
                     <rect key="frame" x="8" y="110" width="50" height="30"/>
@@ -83,28 +77,20 @@
                 <constraint firstAttribute="bottom" secondItem="UAI-SL-WpH" secondAttribute="bottom" constant="172" id="0Xp-FN-o6N"/>
                 <constraint firstAttribute="bottom" secondItem="5z8-eq-NJN" secondAttribute="bottom" constant="112" id="2aB-wq-COE"/>
                 <constraint firstAttribute="trailing" secondItem="g1M-I5-ahO" secondAttribute="trailing" constant="73" id="3We-3E-btn"/>
-                <constraint firstAttribute="trailing" secondItem="13e-qd-Gp4" secondAttribute="trailing" constant="138" id="55G-Fn-bLr"/>
-                <constraint firstAttribute="bottom" secondItem="13e-qd-Gp4" secondAttribute="bottom" constant="172" id="Cdg-TZ-qf7"/>
                 <constraint firstAttribute="bottom" secondItem="nnq-Y3-7pC" secondAttribute="bottom" constant="88" id="ExX-Bi-kHi"/>
                 <constraint firstAttribute="trailing" secondItem="pIy-5J-VIT" secondAttribute="trailing" constant="8" id="F3R-R2-cMm"/>
-                <constraint firstAttribute="trailing" secondItem="1Pw-1S-RmC" secondAttribute="trailing" constant="138" id="HyP-kP-suw"/>
-                <constraint firstAttribute="bottom" secondItem="1Pw-1S-RmC" secondAttribute="bottom" constant="46" id="LSW-2k-qff"/>
                 <constraint firstItem="gRt-12-JcF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="LUD-YX-JVD"/>
                 <constraint firstAttribute="trailing" secondItem="sv3-xf-Dov" secondAttribute="trailing" constant="73" id="O6a-KC-Iv4"/>
                 <constraint firstAttribute="bottom" secondItem="sv3-xf-Dov" secondAttribute="bottom" constant="130" id="OTQ-2Y-4Fc"/>
-                <constraint firstAttribute="trailing" secondItem="KCX-1X-geN" secondAttribute="trailing" constant="138" id="RJm-Bl-i7F"/>
                 <constraint firstAttribute="trailing" secondItem="nnq-Y3-7pC" secondAttribute="trailing" constant="8" id="RYE-id-FRJ"/>
-                <constraint firstAttribute="bottom" secondItem="CgA-yc-FWA" secondAttribute="bottom" constant="130" id="Rxf-dP-Ivj"/>
                 <constraint firstItem="5z8-eq-NJN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="UEC-e4-9cd"/>
                 <constraint firstAttribute="bottom" secondItem="sgG-lf-BQp" secondAttribute="bottom" constant="46" id="Ykj-aR-w9O"/>
                 <constraint firstAttribute="bottom" secondItem="or9-TI-t36" secondAttribute="bottom" constant="60" id="Z0O-aO-ibp"/>
                 <constraint firstAttribute="trailing" secondItem="qxq-mz-2le" secondAttribute="trailing" constant="73" id="a4e-ag-83T"/>
                 <constraint firstAttribute="trailing" secondItem="z4r-Ny-MGh" secondAttribute="trailing" constant="8" id="bPi-3b-16G"/>
-                <constraint firstAttribute="trailing" secondItem="CgA-yc-FWA" secondAttribute="trailing" constant="138" id="bSq-gB-6eY"/>
                 <constraint firstAttribute="bottom" secondItem="qxq-mz-2le" secondAttribute="bottom" constant="46" id="g7F-b7-Bhd"/>
                 <constraint firstAttribute="trailing" secondItem="sgG-lf-BQp" secondAttribute="trailing" constant="8" id="gKQ-ji-iYP"/>
                 <constraint firstAttribute="bottom" secondItem="z4r-Ny-MGh" secondAttribute="bottom" constant="172" id="hFY-cO-BuZ"/>
-                <constraint firstAttribute="bottom" secondItem="KCX-1X-geN" secondAttribute="bottom" constant="88" id="hLx-f7-uZs"/>
                 <constraint firstItem="or9-TI-t36" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="li7-1r-MZu"/>
                 <constraint firstAttribute="trailing" secondItem="UAI-SL-WpH" secondAttribute="trailing" constant="73" id="rnr-Uq-1nT"/>
                 <constraint firstAttribute="bottom" secondItem="pIy-5J-VIT" secondAttribute="bottom" constant="130" id="s8c-7Q-isN"/>
