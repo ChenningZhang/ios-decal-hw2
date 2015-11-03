@@ -69,54 +69,44 @@ class KeyboardViewController: UIInputViewController {
         
     }
     
-    func inputOne(sender: AnyObject) {
-        let proxy = self.textDocumentProxy as UITextDocumentProxy
-        proxy.insertText("1")
+    func inputOne() {
+        self.textDocumentProxy.insertText("1")
     }
     
-    func inputTwo(sender: AnyObject) {
-        let proxy = self.textDocumentProxy as UITextDocumentProxy
-        proxy.insertText("2")
+    func inputTwo() {
+        self.textDocumentProxy.insertText("2")
     }
     
-    func inputThree(sender: AnyObject) {
-        let proxy = self.textDocumentProxy as UITextDocumentProxy
-        proxy.insertText("3")
+    func inputThree() {
+        self.textDocumentProxy.insertText("3")
     }
     
-    func inputFour(sender: AnyObject) {
-        let proxy = self.textDocumentProxy as UITextDocumentProxy
-        proxy.insertText("4")
+    func inputFour() {
+        self.textDocumentProxy.insertText("4")
     }
     
-    func inputFive(sender: AnyObject) {
-        let proxy = self.textDocumentProxy as UITextDocumentProxy
-        proxy.insertText("5")
+    func inputFive() {
+        self.textDocumentProxy.insertText("5")
     }
 
-    func inputSix(sender: AnyObject) {
-        let proxy = self.textDocumentProxy as UITextDocumentProxy
-        proxy.insertText("6")
+    func inputSix() {
+        self.textDocumentProxy.insertText("6")
     }
 
-    func inputSeven(sender: AnyObject) {
-        let proxy = self.textDocumentProxy as UITextDocumentProxy
-        proxy.insertText("7")
+    func inputSeven() {
+        self.textDocumentProxy.insertText("7")
     }
 
-    func inputEight(sender: AnyObject) {
-        let proxy = self.textDocumentProxy as UITextDocumentProxy
-        proxy.insertText("8")
+    func inputEight() {
+        self.textDocumentProxy.insertText("8")
     }
     
-    func deleteAction(sender: AnyObject) {
-        let proxy = self.textDocumentProxy as UITextDocumentProxy
-        proxy.deleteBackward()
+    func deleteAction() {
+        self.textDocumentProxy.deleteBackward()
     }
     
-    func returnAction(sender: AnyObject) {
-        let proxy = self.textDocumentProxy as UITextDocumentProxy
-        proxy.insertText("\n")
+    func returnAction() {
+        self.textDocumentProxy.insertText("\n")
     }
 
 
